@@ -51,10 +51,10 @@ class MainActivity : ComponentActivity() {
 fun Calculator(modifier: Modifier = Modifier) {
     Column() {
 
-        // nhap phep tinh
-        TextField(
-            value = expres
-        )
+//        // nhap phep tinh
+//        TextField(
+//            value = expres
+//        )
 
         CalculatorRow(
             "C", "del", "%", "/",

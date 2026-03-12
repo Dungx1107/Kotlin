@@ -42,6 +42,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.androiddeveloper.R
 import com.example.androiddeveloper.TipTime.ui.theme.AndroiddeveloperTheme
+import org.jetbrains.annotations.VisibleForTesting
 import java.text.NumberFormat
 
 class TipTimeActivity : ComponentActivity() {
@@ -182,7 +183,8 @@ fun RoundTheTipRow(
     }
 }
 
-private fun calculateTip(
+@VisibleForTesting // chỉ công khai cho mục kiểm thử
+internal fun calculateTip(
     amount: Double,
     tipPercent: Double = 15.0,
     roundUp: Boolean

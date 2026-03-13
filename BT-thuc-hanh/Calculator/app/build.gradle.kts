@@ -57,4 +57,8 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
     implementation("net.objecthunter:exp4j:0.4.8")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
+
+    // Đảm bảo bạn cũng có thư viện này nếu dùng ViewModel truyền thống
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.0")
 }

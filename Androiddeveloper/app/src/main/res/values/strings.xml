@@ -10,4 +10,17 @@
     <string name="bill_amount">Bill Amount</string>
     <string name="tip_amount">Tip Amount: %s</string>
     <string name="title_activity_art_space">ArtSpace</string>
+    <string name="title_activity_affirmations_app">AffirmationsAppActivity</string>
+
+    <string name="affirmation1">kaka 1</string>
+    <string name="affirmation2">kaka 2</string>
+    <string name="affirmation3">kaka 3</string>
+    <string name="affirmation4">kaka 4</string>
+    <string name="affirmation5">kaka 5</string>
+    <string name="affirmation6">kaka 6</string>
+    <string name="affirmation7">kaka 7</string>
+    <string name="affirmation8">kaka 8</string>
+    <string name="affirmation9">kaka 9</string>
+    <string name="affirmation10">kaka 10 </string>
+
 </resources>

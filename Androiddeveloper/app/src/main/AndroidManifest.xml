@@ -12,6 +12,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidDeveloper">
         <activity
+            android:name=".AffirmationsApp.AffirmationsAppActivity"
+            android:exported="true"
+            android:label="@string/title_activity_affirmations_app"
+            android:theme="@style/Theme.AndroidDeveloper">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".ArtSpace.ArtSpaceActivity"
             android:exported="true"
             android:label="@string/title_activity_art_space"
@@ -22,19 +33,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".TipTime.TipTimeActivity"
             android:exported="true"
             android:label="@string/title_activity_tip_time"
             android:theme="@style/Theme.Androiddeveloper">
-            <!--            <intent-filter>-->
-            <!--                <action android:name="android.intent.action.MAIN" />-->
 
-            <!--                <category android:name="android.intent.category.LAUNCHER" />-->
-            <!--            </intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
-
     </application>
 
 </manifest>

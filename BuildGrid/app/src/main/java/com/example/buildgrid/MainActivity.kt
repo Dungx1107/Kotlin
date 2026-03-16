@@ -72,9 +72,7 @@ fun TopicGrid(modifier: Modifier = Modifier) {
 @Composable
 fun TopicCard(topic: Topic, modifier: Modifier = Modifier) {
     Card(modifier = modifier) {
-
         Row {
-
             Image(
                 painter = painterResource(topic.imageRes),
                 contentDescription = null,
@@ -85,7 +83,6 @@ fun TopicCard(topic: Topic, modifier: Modifier = Modifier) {
             )
 
             Column {
-
                 Text(
                     text = stringResource(topic.name),
                     style = MaterialTheme.typography.bodyMedium,

@@ -147,6 +147,7 @@ fun DogItem(
             ) {
                 DogIcon(dog.imageResourceId)
                 DogInformation(dog.name, dog.age)
+
                 Spacer(Modifier.weight(1f))
                 DogItemButton(
                     expanded = expanded,
@@ -217,10 +218,9 @@ private fun DogItemButton(
              * ExpandLess: Mũi tên chỉ lên ⬆️
              * ExpandMore: Mũi tên chỉ xuống ⬇️
              */
-            contentDescription = stringResource(R.string.expand_button_content_description),
-
-            tint = MaterialTheme.colorScheme.secondary // Màu sắc cho icon
+            tint = MaterialTheme.colorScheme.secondary, // Màu sắc cho icon
             //secondary: Màu phụ trong theme, thường là màu nhấn
+            contentDescription = stringResource(R.string.expand_button_content_description),
         )
     }
 }

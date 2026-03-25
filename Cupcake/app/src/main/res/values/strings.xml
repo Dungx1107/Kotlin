@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Cupcake</string>
+    <string name="cupcake">Cupcake</string>
+    <string name="order_cupcakes">Order Cupcakes</string>
+    <string name="one_cupcake">One Cupcake</string>
+    <string name="six_cupcakes">Six Cupcakes</string>
+    <string name="twelve_cupcakes">Twelve Cupcakes</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="vanilla">Vanilla</string>
+    <string name="red_velvet">Red Velvet</string>
+    <string name="salted_caramel">Salted Caramel</string>
+    <string name="coffee">Coffee</string>
+    <string name="wed_nov_15">Wed Nov 15</string>
+    <string name="thu_nov_16">Thu Nov 16</string>
+    <string name="fri_nov_17">Fri Nov 17</string>
+    <string name="sat_nov_18">Sat Nov 18</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="choose_flavor">Choose flavor</string>
+    <string name="choose_pickup_date">Choose PickUp Date</string>
+    <string name="order_summary">Order summary</string>
+    <string name="send_oder_to_another_app">Send Oder to Another app</string>
+    <string name="cancel">Cancel</string>
+    <string name="quantity">QUANTITY</string>
+    <string name="flavor">FLAVOR</string>
+    <string name="pickup_date">PICKUP DATE</string>
+</resources>

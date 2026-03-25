@@ -39,8 +39,19 @@ import com.example.cupcake.R
 fun SummaryScreen(
     summary: List<String>,
     onBackButtonClicked: () -> Unit,
-    subtotal: String
+    subtotal: String,
+    onCancelButtonClicked: () -> Unit,
+    onSendButtonClicked: (String, String) -> Unit
 ) {
+
+    val newOrder = stringResource(R.string.new_cupcake_order)
+    val orderSummary = stringResource(
+        R.string.order_details,
+        summary[0],
+        summary[1],
+        summary[2],
+        subtotal
+    )
 
     Scaffold(
         topBar = {
@@ -71,7 +82,7 @@ fun SummaryScreen(
 
                 ) {
                     Button(
-                        onClick = {},
+                        onClick = { onSendButtonClicked(newOrder, orderSummary) },
                         modifier = Modifier
                             .fillMaxWidth()
                             .padding(8.dp),
@@ -86,7 +97,7 @@ fun SummaryScreen(
                     }
 
                     Button(
-                        onClick = {},
+                        onClick = onCancelButtonClicked,
                         modifier = Modifier
                             .fillMaxWidth()
                             .padding(8.dp),
@@ -178,6 +189,18 @@ fun SummaryScreen(
 @Composable
 @Preview
 fun SummaryScreenPreview() {
-    var list = listOf("12", "50", "500")
-    SummaryScreen(list, {}, "12")
+    val summary = listOf("12 Cupcakes", "Vanilla", "March 25, 2026")
+    val subtotal = "$24.00"
+
+    SummaryScreen(
+        summary = summary,
+        onBackButtonClicked = {},
+        subtotal = subtotal,
+        onCancelButtonClicked = {},
+        onSendButtonClicked = { newOrder, orderSummary ->
+            // Preview không làm gì cả
+            println("New Order: $newOrder")
+            println("Order Summary: $orderSummary")
+        }
+    )
 }

@@ -23,4 +23,5 @@
     <string name="quantity">QUANTITY</string>
     <string name="flavor">FLAVOR</string>
     <string name="pickup_date">PICKUP DATE</string>
-</resources>
+    <string name="new_cupcake_order">new cupcake order</string>
+    <string name="order_details">Quantity: %1$s \nFlavor: %2$s \nPickup date: %3$s \nTotal: %4$s</string></resources>

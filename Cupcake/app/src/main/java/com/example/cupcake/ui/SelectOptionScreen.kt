@@ -177,12 +177,6 @@ fun ListOption(
     }
 }
 
-//@Composable
-//@Preview
-//fun SelectOptionScreenPreview() {
-//    SelectOptionScreen()
-//}
-
 @Composable
 @Preview
 fun SelectFlavorPreview() {
